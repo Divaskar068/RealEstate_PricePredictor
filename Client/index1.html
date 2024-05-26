@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Real Estate Price Predictor</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="app.js"></script>
+        <link rel ="stylesheet" href="style1.css">
+
+        <!--- Boxicon Link --->
+        <link rel="stylesheet" 
+        href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">
+                <img src="Untitled design-2.png">
+            </a>    
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#" id="scroll-to-about">About</a></li>
+                <li><a href="#" id="scroll-to-model">Model</a></li>
+                <li><a href="#" id="scroll-to-end">Contact</a></li>
+            </ul>
+        </header>
+        <section>
+            <img src="stars.png" id="stars">
+            <img src="clouds.PNG" id="moon">
+            <img src="D3D59679-8794-40E5-AAFE-36D454FC721D.JPEG" id="mountains_behind">
+            <h2 id="text">Price Wise Rise</h2>
+            <a href="#" id="btn">Explore</a>
+            <img src="F6B3DFD6-9E00-439D-87C7-451BBBF32294-ai-brush-removebg-4nyd73j.png" id="mountains_front">
+        </section>
+
+         <!--- Home Section --->
+        <section class="home"id="about-section">
+            <div class="home-text">
+            <h1>Real Estate Price Predictor</h1>
+            <p>Our Real Estate Price Predictor utilizes data analytics and advanced machine learning algorithms to forecast property prices in particular locations.
+                <br><br>We designed a user-friendly interface, therefore enhancing decision-making for buyers, sellers, and investors, aiding in strategic property transactions.
+            </p>
+            </div>  
+
+            <div class ="home-img">
+                <img src="house price rise_7205830.png">
+            </div>
+        </section>
+
+         <!--- Feature Section --->
+        <section class="mod"id="mod">
+                <img src="blurbg.jpg" id="mdbg">
+        <form class="form" id="model-section">
+    <h3>MODEL</h3>
+    <h2>AREA (Square Feet)      [ Min 1000 ]</h2>
+    <input class="area" type="text" id="uiSqft" class="floatLabel" name="Squareft" value="1000">
+    <h2>BEDROOMS</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-bhk-1" name="uiBHK" value="1"/>
+        <label for="radio-bhk-1">1</label>
+        <input type="radio" id="radio-bhk-2" name="uiBHK" value="2" checked/>
+        <label for="radio-bhk-2">2</label>
+        <input type="radio" id="radio-bhk-3" name="uiBHK" value="3"/>
+        <label for="radio-bhk-3">3</label>
+        <input type="radio" id="radio-bhk-4" name="uiBHK" value="4"/>
+        <label for="radio-bhk-4">4</label>
+        <input type="radio" id="radio-bhk-5" name="uiBHK" value="5"/>
+        <label for="radio-bhk-5">5</label>
+    </div>
+    <h2>BATHROOMS</h2>
+    <div class="switch-field">
+        <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1"/>
+        <label for="radio-bath-1">1</label>
+        <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked/>
+        <label for="radio-bath-2">2</label>
+        <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3"/>
+        <label for="radio-bath-3">3</label>
+        <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4"/>
+        <label for="radio-bath-4">4</label>
+        <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5"/>
+        <label for="radio-bath-5">5</label>
+    </div>
+    <h2>Location</h2>
+    <div>
+        <select class="location" name="" id="uiLocations">
+            <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+            <option>Electronic City</option>
+            <option>Rajaji Nagar</option>
+        </select>
+    </div>
+    <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+    <div id="uiEstimatedPrice" class="result">
+        <h2></h2>
+    </div>
+</form>
+        </section>
+            <!-- Contact Section -->
+        <section class="contact">
+            <h2>Contact </h2>
+            <p>Branches: Dubai, DSO Technohub and Sharjah, Al Qasmia ,Amar Building<br><br>Email: pwrdubai@gmail.com<br><br>Phone: +971501234567</p>
+        </section>
+        <footer id="end-section">
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <ul class="social-icon">
+                <li><a href="#"><ion-icon name="logo-facebook">
+                </ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-twitter">
+                </ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-linkedin">
+                </ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-instagram">
+                </ion-icon></a></li>
+            </ul>
+            <ul class="menu">
+                <li ><a href="#">Home</a></li>
+                <li ><a href="#">About</a></li>
+                <li ><a href="#">Model</a></li>
+            </ul>
+            <p>©2024 Divaskar Fawaz Chris Arshad | All Rights Reserved</p>
+        </footer>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
