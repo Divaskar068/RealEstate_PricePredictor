@@ -10,3 +10,10 @@ The machine learning model used for real estate price prediction involves data c
 Linear regression is a simple and widely used algorithm for real estate price prediction. It assumes a linear relationship between the features and the target variable (price). One-hot encoding is a technique used to convert categorical variables into numerical variables. For example, if we have a property type feature with three categories (single-family home, condo, townhouse), we can create three binary columns.
 
 The machine learning model is deployed using Python Flask for the server, and HTML, CSS, and JavaScript for the frontend. Python Flask is a lightweight web framework that provides a flexible and modular way to build web applications. HTML, CSS, and JavaScript are used to create a user-friendly interface for users to input data and view price predictions.
+
+# My Website :
+<img width="1440" alt="Screenshot 2024-08-06 at 7 25 38 PM" src="https://github.com/user-attachments/assets/deec540c-79b5-4dec-be8f-f3e0dd7219b5">
+<img width="1395" alt="Screenshot 2024-08-06 at 7 26 26 PM" src="https://github.com/user-attachments/assets/7bac2567-e3f4-4392-9de6-de7aa5c9eef3">
+<img width="1395" alt="Screenshot 2024-08-06 at 7 26 44 PM" src="https://github.com/user-attachments/assets/15d06bf2-b833-4f56-900f-049a49e30700">
+<img width="1395" alt="Screenshot 2024-08-06 at 7 27 43 PM" src="https://github.com/user-attachments/assets/3f591642-a75d-4578-ba0a-b0342d223d03">
+
